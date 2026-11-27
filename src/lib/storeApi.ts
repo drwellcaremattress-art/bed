@@ -38,6 +38,10 @@ async function apiJson<T>(url: string, options?: RequestInit): Promise<T> {
     },
     ...options,
   });
+  const contentType = res.headers.get('content-type') || '';
+  if (!contentType.includes('application/json')) {
+    throw new Error(`Unexpected response type (${res.status})`);
+  }
   const data = await res.json().catch(() => ({}));
   if (!res.ok) {
     throw new Error((data as { error?: string }).error || `Request failed (${res.status})`);
@@ -87,7 +91,8 @@ export const storeApi = {
       return (data || []).map((row) => mapSupabaseProduct(row as Record<string, unknown>));
     }
     try {
-      return await apiJson<WoodBedProduct[]>('/api/products');
+      const data = await apiJson<WoodBedProduct[]>('/api/products');
+      return Array.isArray(data) ? data : (storeFallback.products as WoodBedProduct[]);
     } catch {
       return storeFallback.products as WoodBedProduct[];
     }
@@ -283,7 +288,8 @@ export const storeApi = {
     }
     const qs = orderNumber?.trim() ? `?orderNumber=${encodeURIComponent(orderNumber.trim())}` : '';
     try {
-      return await apiJson<Order[]>(`/api/orders${qs}`);
+      const data = await apiJson<Order[]>(`/api/orders${qs}`);
+      return Array.isArray(data) ? data : [];
     } catch {
       const orders = storeFallback.orders as Order[];
       if (orderNumber?.trim()) {
