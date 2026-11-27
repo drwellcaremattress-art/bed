@@ -90,6 +90,12 @@ export const storeApi = {
       if (error) throw new Error(error.message);
       return (data || []).map((row) => mapSupabaseProduct(row as Record<string, unknown>));
     }
+    if (
+      import.meta.env.VITE_STATIC_CATALOG === '1' ||
+      (typeof window !== 'undefined' && window.location.hostname.endsWith('.vercel.app'))
+    ) {
+      return storeFallback.products as WoodBedProduct[];
+    }
     try {
       const data = await apiJson<WoodBedProduct[]>('/api/products');
       return Array.isArray(data) ? data : (storeFallback.products as WoodBedProduct[]);
@@ -286,6 +292,17 @@ export const storeApi = {
         })),
       }));
     }
+    if (
+      import.meta.env.VITE_STATIC_CATALOG === '1' ||
+      (typeof window !== 'undefined' && window.location.hostname.endsWith('.vercel.app'))
+    ) {
+      const orders = storeFallback.orders as Order[];
+      if (orderNumber?.trim()) {
+        const needle = orderNumber.trim().toLowerCase();
+        return orders.filter((o) => o.orderNumber.toLowerCase() === needle);
+      }
+      return [];
+    }
     const qs = orderNumber?.trim() ? `?orderNumber=${encodeURIComponent(orderNumber.trim())}` : '';
     try {
       const data = await apiJson<Order[]>(`/api/orders${qs}`);
@@ -338,6 +355,12 @@ export const storeApi = {
 
   async checkAdminAuth(): Promise<boolean> {
     if (supabase) return true;
+    if (
+      import.meta.env.VITE_STATIC_CATALOG === '1' ||
+      (typeof window !== 'undefined' && window.location.hostname.endsWith('.vercel.app'))
+    ) {
+      return false;
+    }
     try {
       const res = await apiJson<{ authenticated: boolean }>('/api/auth/me');
       return Boolean(res.authenticated);
