@@ -1,0 +1,843 @@
+{
+  "products": [
+    {
+      "id": "prod-chettinad-teak",
+      "slug": "karaikudi-chettinad-teak-cot",
+      "name": "Carved Teak Cot Frame",
+      "collection": "Headboard",
+      "woodSpecies": "Teak Wood (Burma Thekku)",
+      "timberOrigin": "Karaikudi & Pollachi Timber Guild, Tamil Nadu",
+      "joineryMethod": "Hand-carved wedged mortise & tenon",
+      "finishType": "Cold-pressed linseed & beeswax polish",
+      "leadTimeDays": 10,
+      "description": "Pure solid Teak Wood cot frame crafted without veneers or particleboard. Features hand-chiseled Chettinad pillar reliefs and 14 thick seasoned teak slats for direct airflow.",
+      "imageUrl": "/src/assets/images/tn_burma_teak_cot_1795072557358.jpg",
+      "isFeatured": true,
+      "createdAt": "2026-10-12T09:00:00.000Z",
+      "specs": {
+        "headSideHeightIn": "44\"",
+        "legSideHeightIn": "20\"",
+        "sideBarSize": "5\" × 2\"",
+        "legThickness": "4\" × 4\"",
+        "baseSpec": "18 mm Solid Teak Slats / Deck Base",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-chettinad-diwan",
+          "productId": "prod-chettinad-teak",
+          "sku": "TIF-KRD-TEK-DW",
+          "sizeLabel": "Diwan",
+          "dimensionsIn": "48\" W × 75\" L × 44\" H",
+          "weightLbs": 158,
+          "priceCents": 6450000,
+          "stockQuantity": 5,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-chettinad-queen",
+          "productId": "prod-chettinad-teak",
+          "sku": "TIF-KRD-TEK-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 44\" H",
+          "weightLbs": 196,
+          "priceCents": 7850000,
+          "stockQuantity": 8,
+          "reorderThreshold": 4
+        },
+        {
+          "id": "var-chettinad-king",
+          "productId": "prod-chettinad-teak",
+          "sku": "TIF-KRD-TEK-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 44\" H",
+          "weightLbs": 228,
+          "priceCents": 9200000,
+          "stockQuantity": 2,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-chettinad-superking",
+          "productId": "prod-chettinad-teak",
+          "sku": "TIF-KRD-TEK-SK",
+          "sizeLabel": "Super King",
+          "dimensionsIn": "78\" W × 84\" L × 44\" H",
+          "weightLbs": 245,
+          "priceCents": 10400000,
+          "stockQuantity": 3,
+          "reorderThreshold": 2
+        }
+      ]
+    },
+    {
+      "id": "prod-chettinad-canopy",
+      "slug": "chettinad-royal-teak-canopy-cot",
+      "name": "Royal Teak Canopy Cot",
+      "collection": "Canopy",
+      "woodSpecies": "Teak Wood (Burma Thekku)",
+      "timberOrigin": "Karaikudi Master Carpenters, Tamil Nadu",
+      "joineryMethod": "Double-wedged mortise & tenon canopy posts",
+      "finishType": "Hand-rubbed beeswax satin",
+      "leadTimeDays": 14,
+      "description": "Architectural four-poster solid Teak Wood canopy frame milled from continuous 82-inch seasoned posts. Engineered for lifelong stability with zero metal brackets.",
+      "imageUrl": "/src/assets/images/tn_chettinad_canopy_1795072558017.jpg",
+      "isFeatured": true,
+      "createdAt": "2026-10-13T09:30:00.000Z",
+      "specs": {
+        "headSideHeightIn": "82\"",
+        "legSideHeightIn": "22\"",
+        "sideBarSize": "6\" × 2\"",
+        "legThickness": "4.5\" × 4.5\"",
+        "baseSpec": "20 mm Solid Teak Slatted Deck",
+        "crossBarsCount": 5
+      },
+      "variants": [
+        {
+          "id": "var-canopy-queen",
+          "productId": "prod-chettinad-canopy",
+          "sku": "TIF-CHR-TEK-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 82\" H",
+          "weightLbs": 240,
+          "priceCents": 9600000,
+          "stockQuantity": 6,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-canopy-king",
+          "productId": "prod-chettinad-canopy",
+          "sku": "TIF-CHR-TEK-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 82\" H",
+          "weightLbs": 276,
+          "priceCents": 11200000,
+          "stockQuantity": 4,
+          "reorderThreshold": 3
+        }
+      ]
+    },
+    {
+      "id": "prod-nilambur-platform",
+      "slug": "nilambur-seasoned-teak-platform-cot",
+      "name": "Seasoned Teak Platform Cot",
+      "collection": "Platform",
+      "woodSpecies": "Teak Wood (Burma Thekku)",
+      "timberOrigin": "Pollachi Seasoning Yard, Tamil Nadu",
+      "joineryMethod": "Lock-mitered corner & haunched tenons",
+      "finishType": "Natural matte tung oil",
+      "leadTimeDays": 8,
+      "description": "Minimalist low-profile Teak Wood platform frame showcasing wide golden-brown heartwood rails and recessed shadow-gap legs.",
+      "imageUrl": "/src/assets/images/bed_vesper_floating_1795071997358.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-10-14T10:00:00.000Z",
+      "specs": {
+        "headSideHeightIn": "34\"",
+        "legSideHeightIn": "16\"",
+        "sideBarSize": "5\" × 2\"",
+        "legThickness": "4\" × 4\"",
+        "baseSpec": "18 mm Solid Teak Slats",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-nilambur-queen",
+          "productId": "prod-nilambur-platform",
+          "sku": "TIF-NLM-TEK-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 34\" H",
+          "weightLbs": 178,
+          "priceCents": 6950000,
+          "stockQuantity": 7,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-nilambur-king",
+          "productId": "prod-nilambur-platform",
+          "sku": "TIF-NLM-TEK-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 34\" H",
+          "weightLbs": 208,
+          "priceCents": 8250000,
+          "stockQuantity": 5,
+          "reorderThreshold": 3
+        }
+      ]
+    },
+    {
+      "id": "prod-pollachi-teak-storage",
+      "slug": "pollachi-teak-storage-cot",
+      "name": "Teak Hydraulic Storage Cot",
+      "collection": "Storage",
+      "woodSpecies": "Teak Wood (Burma Thekku)",
+      "timberOrigin": "Pollachi Guild Workshop, Tamil Nadu",
+      "joineryMethod": "Dovetail box rails & wedged tenons",
+      "finishType": "Satin linseed & carnauba wax",
+      "leadTimeDays": 12,
+      "description": "Full-section solid Teak Wood storage cot with deep under-bed compartments and solid teak deck planks—built for heirloom bedrooms needing discreet storage.",
+      "imageUrl": "/src/assets/images/bed_solis_storage_1795071996680.jpg",
+      "isFeatured": true,
+      "createdAt": "2026-10-15T11:00:00.000Z",
+      "specs": {
+        "headSideHeightIn": "42\"",
+        "legSideHeightIn": "19\"",
+        "sideBarSize": "6\" × 2\"",
+        "legThickness": "4\" × 4\"",
+        "baseSpec": "18 mm Solid Teak Deck + Storage Box",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-pol-tek-st-qn",
+          "productId": "prod-pollachi-teak-storage",
+          "sku": "TIF-POL-TEK-SQ",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 42\" H",
+          "weightLbs": 232,
+          "priceCents": 8650000,
+          "stockQuantity": 6,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-pol-tek-st-kg",
+          "productId": "prod-pollachi-teak-storage",
+          "sku": "TIF-POL-TEK-SK",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 42\" H",
+          "weightLbs": 265,
+          "priceCents": 9950000,
+          "stockQuantity": 3,
+          "reorderThreshold": 3
+        }
+      ]
+    },
+    {
+      "id": "prod-thanjavur-teak-poster",
+      "slug": "thanjavur-four-poster-teak-cot",
+      "name": "Four-Poster Teak Cot",
+      "collection": "Canopy",
+      "woodSpecies": "Teak Wood (Burma Thekku)",
+      "timberOrigin": "Thanjavur & Karaikudi Timber Guild, Tamil Nadu",
+      "joineryMethod": "Turned finials with pegged mortise & tenon",
+      "finishType": "Hand-rubbed shellac & beeswax",
+      "leadTimeDays": 14,
+      "description": "Heritage four-poster cot crafted in kiln-seasoned Teak Wood with subtle lathe-turned top finials and heavy 4.5-inch corner posts.",
+      "imageUrl": "/src/assets/images/bed_atelier_canopy_1795071997221.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-10-16T09:15:00.000Z",
+      "specs": {
+        "headSideHeightIn": "80\"",
+        "legSideHeightIn": "21\"",
+        "sideBarSize": "5.5\" × 2\"",
+        "legThickness": "4.5\" × 4.5\"",
+        "baseSpec": "18 mm Solid Teak Slats",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-thanj-tek-qn",
+          "productId": "prod-thanjavur-teak-poster",
+          "sku": "TIF-THJ-TEK-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 80\" H",
+          "weightLbs": 228,
+          "priceCents": 9350000,
+          "stockQuantity": 5,
+          "reorderThreshold": 2
+        },
+        {
+          "id": "var-thanj-tek-kg",
+          "productId": "prod-thanjavur-teak-poster",
+          "sku": "TIF-THJ-TEK-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 80\" H",
+          "weightLbs": 258,
+          "priceCents": 10850000,
+          "stockQuantity": 4,
+          "reorderThreshold": 2
+        }
+      ]
+    },
+    {
+      "id": "prod-coimbatore-teak-low",
+      "slug": "coimbatore-low-line-teak-slatted-cot",
+      "name": "Low-Line Teak Slatted Cot",
+      "collection": "Platform",
+      "woodSpecies": "Teak Wood (Burma Thekku)",
+      "timberOrigin": "Coimbatore Mill Yard, Tamil Nadu",
+      "joineryMethod": "Bridle joint & wedged tenon rails",
+      "finishType": "Cold-pressed raw tung oil",
+      "leadTimeDays": 7,
+      "description": "Clean horizontal slat headboard paired with a grounded Teak Wood frame. Ideal for modern Tamil Nadu homes seeking warm natural grain.",
+      "imageUrl": "/src/assets/images/tn_vengai_slatted_1795072559025.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-10-17T10:20:00.000Z",
+      "specs": {
+        "headSideHeightIn": "36\"",
+        "legSideHeightIn": "17\"",
+        "sideBarSize": "5\" × 2\"",
+        "legThickness": "3.5\" × 3.5\"",
+        "baseSpec": "18 mm Solid Teak Slats",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-cbe-tek-qn",
+          "productId": "prod-coimbatore-teak-low",
+          "sku": "TIF-CBE-TEK-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 36\" H",
+          "weightLbs": 172,
+          "priceCents": 6550000,
+          "stockQuantity": 10,
+          "reorderThreshold": 4
+        },
+        {
+          "id": "var-cbe-tek-kg",
+          "productId": "prod-coimbatore-teak-low",
+          "sku": "TIF-CBE-TEK-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 36\" H",
+          "weightLbs": 198,
+          "priceCents": 7750000,
+          "stockQuantity": 7,
+          "reorderThreshold": 3
+        }
+      ]
+    },
+    {
+      "id": "prod-kumbakonam-teak-box",
+      "slug": "kumbakonam-teak-box-drawer-cot",
+      "name": "Teak Box-Drawer Cot",
+      "collection": "Storage",
+      "woodSpecies": "Teak Wood (Burma Thekku)",
+      "timberOrigin": "Kumbakonam & Pollachi Guild, Tamil Nadu",
+      "joineryMethod": "Finger-jointed drawer boxes & mortise frame",
+      "finishType": "Matte beeswax & linseed oil",
+      "leadTimeDays": 11,
+      "description": "Four deep under-bed pull-out drawers running on seasoned teak runners—zero metal channels, pure solid Teak Wood joinery throughout.",
+      "imageUrl": "/src/assets/images/tn_jackwood_storage_1795072557681.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-10-18T08:45:00.000Z",
+      "specs": {
+        "headSideHeightIn": "41\"",
+        "legSideHeightIn": "19\"",
+        "sideBarSize": "6\" × 2\"",
+        "legThickness": "4\" × 4\"",
+        "baseSpec": "18 mm Teak Deck + 4 Drawers",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-kmb-tek-qn",
+          "productId": "prod-kumbakonam-teak-box",
+          "sku": "TIF-KMB-TEK-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 41\" H",
+          "weightLbs": 225,
+          "priceCents": 8400000,
+          "stockQuantity": 6,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-kmb-tek-kg",
+          "productId": "prod-kumbakonam-teak-box",
+          "sku": "TIF-KMB-TEK-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 41\" H",
+          "weightLbs": 254,
+          "priceCents": 9650000,
+          "stockQuantity": 5,
+          "reorderThreshold": 3
+        }
+      ]
+    },
+    {
+      "id": "prod-palani-teak-arch",
+      "slug": "palani-arch-headboard-teak-cot",
+      "name": "Arch Headboard Teak Cot",
+      "collection": "Headboard",
+      "woodSpecies": "Teak Wood (Burma Thekku)",
+      "timberOrigin": "Palani & Pollachi Timber Yard, Tamil Nadu",
+      "joineryMethod": "Curved rail mortise & pinned tenon",
+      "finishType": "Warm satin teak oil",
+      "leadTimeDays": 10,
+      "description": "Gently arched solid Teak Wood headboard shaped from thick single-plank timber with chamfered corner posts and 14 teak support slats.",
+      "imageUrl": "/src/assets/images/bed_nordic_oak_1795071997764.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-10-19T12:00:00.000Z",
+      "specs": {
+        "headSideHeightIn": "43\"",
+        "legSideHeightIn": "19\"",
+        "sideBarSize": "5\" × 2\"",
+        "legThickness": "4\" × 4\"",
+        "baseSpec": "18 mm Solid Teak Slats",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-pal-tek-qn",
+          "productId": "prod-palani-teak-arch",
+          "sku": "TIF-PAL-TEK-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 43\" H",
+          "weightLbs": 190,
+          "priceCents": 7450000,
+          "stockQuantity": 8,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-pal-tek-sk",
+          "productId": "prod-palani-teak-arch",
+          "sku": "TIF-PAL-TEK-SK",
+          "sizeLabel": "Super King",
+          "dimensionsIn": "78\" W × 84\" L × 43\" H",
+          "weightLbs": 236,
+          "priceCents": 9850000,
+          "stockQuantity": 4,
+          "reorderThreshold": 2
+        }
+      ]
+    },
+    {
+      "id": "prod-madurai-mahogany",
+      "slug": "madurai-mahogany-spindle-cot",
+      "name": "Mahogany Spindle Cot Frame",
+      "collection": "Headboard",
+      "woodSpecies": "Mahogany Wood",
+      "timberOrigin": "Madurai & Pollachi Guild, Tamil Nadu",
+      "joineryMethod": "Turned spindle & pinned mortise joinery",
+      "finishType": "Deep reddish-amber French polish",
+      "leadTimeDays": 8,
+      "description": "Timeless solid Mahogany Wood cot frame featuring hand-turned vertical spindles, rounded posts, and deep reddish-brown timber sheen.",
+      "imageUrl": "/src/assets/images/tn_mahogany_diwan_1795072558300.jpg",
+      "isFeatured": true,
+      "createdAt": "2026-10-20T09:00:00.000Z",
+      "specs": {
+        "headSideHeightIn": "39\"",
+        "legSideHeightIn": "18\"",
+        "sideBarSize": "4.5\" × 2\"",
+        "legThickness": "3.5\" × 3.5\"",
+        "baseSpec": "18 mm Solid Mahogany Slats",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-madurai-diwan",
+          "productId": "prod-madurai-mahogany",
+          "sku": "TIF-MDU-MHG-DW",
+          "sizeLabel": "Diwan",
+          "dimensionsIn": "48\" W × 75\" L × 39\" H",
+          "weightLbs": 140,
+          "priceCents": 4250000,
+          "stockQuantity": 7,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-madurai-queen",
+          "productId": "prod-madurai-mahogany",
+          "sku": "TIF-MDU-MHG-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 39\" H",
+          "weightLbs": 162,
+          "priceCents": 4850000,
+          "stockQuantity": 8,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-madurai-king",
+          "productId": "prod-madurai-mahogany",
+          "sku": "TIF-MDU-MHG-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 39\" H",
+          "weightLbs": 188,
+          "priceCents": 5750000,
+          "stockQuantity": 5,
+          "reorderThreshold": 3
+        }
+      ]
+    },
+    {
+      "id": "prod-salem-mahogany-platform",
+      "slug": "salem-royal-mahogany-platform-cot",
+      "name": "Royal Mahogany Platform Cot",
+      "collection": "Platform",
+      "woodSpecies": "Mahogany Wood",
+      "timberOrigin": "Salem & Yercaud Seasoning Yard, Tamil Nadu",
+      "joineryMethod": "Lock-mitered corner & haunched tenon",
+      "finishType": "Hand-rubbed satin tung oil",
+      "leadTimeDays": 7,
+      "description": "Rich crimson-brown solid Mahogany Wood platform frame with broad mitered rails and tapered solid mahogany legs.",
+      "imageUrl": "/src/assets/images/tn_rosewood_platform_1795072558502.jpg",
+      "isFeatured": true,
+      "createdAt": "2026-10-21T10:30:00.000Z",
+      "specs": {
+        "headSideHeightIn": "35\"",
+        "legSideHeightIn": "17\"",
+        "sideBarSize": "5\" × 2\"",
+        "legThickness": "4\" × 4\"",
+        "baseSpec": "18 mm Seasoned Mahogany Slats",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-salem-mhg-qn",
+          "productId": "prod-salem-mahogany-platform",
+          "sku": "TIF-SLM-MHG-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 35\" H",
+          "weightLbs": 170,
+          "priceCents": 5150000,
+          "stockQuantity": 9,
+          "reorderThreshold": 4
+        },
+        {
+          "id": "var-salem-mhg-kg",
+          "productId": "prod-salem-mahogany-platform",
+          "sku": "TIF-SLM-MHG-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 35\" H",
+          "weightLbs": 198,
+          "priceCents": 6100000,
+          "stockQuantity": 6,
+          "reorderThreshold": 3
+        }
+      ]
+    },
+    {
+      "id": "prod-trichy-mahogany-storage",
+      "slug": "trichy-mahogany-twin-drawer-storage-cot",
+      "name": "Mahogany Twin-Drawer Storage Cot",
+      "collection": "Storage",
+      "woodSpecies": "Mahogany Wood",
+      "timberOrigin": "Tiruchirappalli Workshop, Tamil Nadu",
+      "joineryMethod": "Dovetail drawer boxes & mortise rails",
+      "finishType": "Warm mahogany wax polish",
+      "leadTimeDays": 11,
+      "description": "Solid Mahogany Wood storage cot with twin full-depth side drawers and ventilated mahogany deck slats.",
+      "imageUrl": "/src/assets/images/bed_kyoto_walnut_1795072016344.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-10-22T09:45:00.000Z",
+      "specs": {
+        "headSideHeightIn": "40\"",
+        "legSideHeightIn": "18\"",
+        "sideBarSize": "5.5\" × 2\"",
+        "legThickness": "4\" × 4\"",
+        "baseSpec": "18 mm Mahogany Deck + 2 Drawers",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-trichy-mhg-qn",
+          "productId": "prod-trichy-mahogany-storage",
+          "sku": "TIF-TRY-MHG-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 40\" H",
+          "weightLbs": 210,
+          "priceCents": 5950000,
+          "stockQuantity": 6,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-trichy-mhg-kg",
+          "productId": "prod-trichy-mahogany-storage",
+          "sku": "TIF-TRY-MHG-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 40\" H",
+          "weightLbs": 238,
+          "priceCents": 6950000,
+          "stockQuantity": 5,
+          "reorderThreshold": 3
+        }
+      ]
+    },
+    {
+      "id": "prod-erode-mahogany-canopy",
+      "slug": "erode-mahogany-heritage-canopy-cot",
+      "name": "Mahogany Heritage Canopy Cot",
+      "collection": "Canopy",
+      "woodSpecies": "Mahogany Wood",
+      "timberOrigin": "Erode & Pollachi Guild, Tamil Nadu",
+      "joineryMethod": "Full-height pegged mortise & tenon",
+      "finishType": "Deep satin French polish",
+      "leadTimeDays": 13,
+      "description": "Tall four-poster solid Mahogany Wood canopy frame with crisp chamfered posts and deep mahogany lustre.",
+      "imageUrl": "/src/assets/images/tn_chettinad_canopy_1795072558017.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-10-23T11:15:00.000Z",
+      "specs": {
+        "headSideHeightIn": "80\"",
+        "legSideHeightIn": "21\"",
+        "sideBarSize": "5.5\" × 2\"",
+        "legThickness": "4\" × 4\"",
+        "baseSpec": "18 mm Solid Mahogany Slats",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-erode-mhg-qn",
+          "productId": "prod-erode-mahogany-canopy",
+          "sku": "TIF-ERD-MHG-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 80\" H",
+          "weightLbs": 218,
+          "priceCents": 7250000,
+          "stockQuantity": 5,
+          "reorderThreshold": 2
+        },
+        {
+          "id": "var-erode-mhg-kg",
+          "productId": "prod-erode-mahogany-canopy",
+          "sku": "TIF-ERD-MHG-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 80\" H",
+          "weightLbs": 246,
+          "priceCents": 8450000,
+          "stockQuantity": 3,
+          "reorderThreshold": 2
+        }
+      ]
+    },
+    {
+      "id": "prod-vellore-mahogany-panel",
+      "slug": "vellore-fluted-panel-mahogany-cot",
+      "name": "Fluted Panel Mahogany Cot",
+      "collection": "Headboard",
+      "woodSpecies": "Mahogany Wood",
+      "timberOrigin": "Vellore & Javadi Hills Mill, Tamil Nadu",
+      "joineryMethod": "Floating tongue-and-groove & wedged tenons",
+      "finishType": "Natural beeswax & linseed oil",
+      "leadTimeDays": 9,
+      "description": "Vertical fluted solid Mahogany Wood headboard framed by 4-inch corner stiles—crafted to highlight straight-grain mahogany heartwood.",
+      "imageUrl": "/src/assets/images/bed_monolith_spindle_1795071995328.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-10-24T10:00:00.000Z",
+      "specs": {
+        "headSideHeightIn": "42\"",
+        "legSideHeightIn": "19\"",
+        "sideBarSize": "5\" × 2\"",
+        "legThickness": "4\" × 4\"",
+        "baseSpec": "18 mm Solid Mahogany Slats",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-vellore-mhg-qn",
+          "productId": "prod-vellore-mahogany-panel",
+          "sku": "TIF-VLR-MHG-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 42\" H",
+          "weightLbs": 182,
+          "priceCents": 5550000,
+          "stockQuantity": 7,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-vellore-mhg-kg",
+          "productId": "prod-vellore-mahogany-panel",
+          "sku": "TIF-VLR-MHG-KG",
+          "sizeLabel": "King",
+          "dimensionsIn": "72\" W × 78\" L × 42\" H",
+          "weightLbs": 212,
+          "priceCents": 6550000,
+          "stockQuantity": 6,
+          "reorderThreshold": 3
+        }
+      ]
+    },
+    {
+      "id": "prod-nagercoil-mahogany-diwan",
+      "slug": "nagercoil-classic-mahogany-diwan-cot",
+      "name": "Classic Mahogany Diwan Cot",
+      "collection": "Platform",
+      "woodSpecies": "Mahogany Wood",
+      "timberOrigin": "Nagercoil & Kanyakumari Guild, Tamil Nadu",
+      "joineryMethod": "Wedged mortise & tenon",
+      "finishType": "Satin tung oil finish",
+      "leadTimeDays": 7,
+      "description": "Compact solid Mahogany Wood cot designed for guest suites and study rooms, finished in warm reddish-brown hand-rubbed oil.",
+      "imageUrl": "/src/assets/images/tn_mahogany_diwan_1795072558300.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-10-25T09:10:00.000Z",
+      "specs": {
+        "headSideHeightIn": "32\"",
+        "legSideHeightIn": "18\"",
+        "sideBarSize": "4.5\" × 2\"",
+        "legThickness": "3.5\" × 3.5\"",
+        "baseSpec": "18 mm Solid Mahogany Slats",
+        "crossBarsCount": 3
+      },
+      "variants": [
+        {
+          "id": "var-ngc-mhg-dw",
+          "productId": "prod-nagercoil-mahogany-diwan",
+          "sku": "TIF-NGC-MHG-DW",
+          "sizeLabel": "Diwan",
+          "dimensionsIn": "48\" W × 75\" L × 32\" H",
+          "weightLbs": 135,
+          "priceCents": 3950000,
+          "stockQuantity": 11,
+          "reorderThreshold": 4
+        },
+        {
+          "id": "var-ngc-mhg-qn",
+          "productId": "prod-nagercoil-mahogany-diwan",
+          "sku": "TIF-NGC-MHG-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 32\" H",
+          "weightLbs": 158,
+          "priceCents": 4750000,
+          "stockQuantity": 8,
+          "reorderThreshold": 3
+        }
+      ]
+    },
+    {
+      "id": "prod-hosur-mahogany-captain",
+      "slug": "hosur-mahogany-captain-storage-cot",
+      "name": "Mahogany Captain Storage Cot",
+      "collection": "Storage",
+      "woodSpecies": "Mahogany Wood",
+      "timberOrigin": "Hosur & Salem Timber Yard, Tamil Nadu",
+      "joineryMethod": "Dovetail drawers & haunched mortise frame",
+      "finishType": "Matte carnauba wax & oil",
+      "leadTimeDays": 10,
+      "description": "Heavy-duty solid Mahogany Wood captain's cot with integrated under-frame storage bays and thick 18 mm mahogany deck planks.",
+      "imageUrl": "/src/assets/images/bed_solis_storage_1795071996680.jpg",
+      "isFeatured": false,
+      "createdAt": "2026-10-26T14:00:00.000Z",
+      "specs": {
+        "headSideHeightIn": "40\"",
+        "legSideHeightIn": "19\"",
+        "sideBarSize": "5.5\" × 2\"",
+        "legThickness": "4\" × 4\"",
+        "baseSpec": "18 mm Mahogany Deck + Storage",
+        "crossBarsCount": 4
+      },
+      "variants": [
+        {
+          "id": "var-hosur-mhg-qn",
+          "productId": "prod-hosur-mahogany-captain",
+          "sku": "TIF-HSR-MHG-QN",
+          "sizeLabel": "Queen",
+          "dimensionsIn": "60\" W × 78\" L × 40\" H",
+          "weightLbs": 215,
+          "priceCents": 6250000,
+          "stockQuantity": 6,
+          "reorderThreshold": 3
+        },
+        {
+          "id": "var-hosur-mhg-sk",
+          "productId": "prod-hosur-mahogany-captain",
+          "sku": "TIF-HSR-MHG-SK",
+          "sizeLabel": "Super King",
+          "dimensionsIn": "78\" W × 84\" L × 40\" H",
+          "weightLbs": 255,
+          "priceCents": 7950000,
+          "stockQuantity": 4,
+          "reorderThreshold": 2
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1041",
+      "orderNumber": "TIF-1041",
+      "customerName": "Karthik Subramanian",
+      "customerEmail": "karthik.s@example.com",
+      "customerPhone": "+91 98401 44210",
+      "shippingAddress": "18 Besant Avenue, Adyar, Chennai, Tamil Nadu",
+      "postalCode": "600020",
+      "paymentMethod": "Card",
+      "status": "In Joinery",
+      "subtotalCents": 7850000,
+      "deliveryCents": 0,
+      "totalCents": 7850000,
+      "notes": "Second floor apartment, carpenter assembly requested on Sunday morning.",
+      "createdAt": "2026-11-16T15:22:00.000Z",
+      "items": [
+        {
+          "id": "oi-1041-1",
+          "orderId": "ord-1041",
+          "productId": "prod-chettinad-teak",
+          "variantId": "var-chettinad-queen",
+          "productName": "Karaikudi Carved Teak Cot Frame",
+          "sizeLabel": "Queen",
+          "sku": "TIF-KRD-TEK-QN",
+          "quantity": 1,
+          "unitPriceCents": 7850000
+        }
+      ]
+    },
+    {
+      "id": "ord-1042",
+      "orderNumber": "TIF-1042",
+      "customerName": "Meenakshi Sundaram",
+      "customerEmail": "meenakshi@example.com",
+      "customerPhone": "+91 94431 78120",
+      "shippingAddress": "42 Race Course Road, Gopalapuram, Coimbatore, Tamil Nadu",
+      "postalCode": "641018",
+      "paymentMethod": "Cash on Delivery",
+      "status": "Confirmed",
+      "subtotalCents": 4850000,
+      "deliveryCents": 180000,
+      "totalCents": 5030000,
+      "notes": "Call 30 minutes prior to timber van arrival.",
+      "createdAt": "2026-11-18T11:05:00.000Z",
+      "items": [
+        {
+          "id": "oi-1042-1",
+          "orderId": "ord-1042",
+          "productId": "prod-madurai-mahogany",
+          "variantId": "var-madurai-queen",
+          "productName": "Madurai Mahogany Spindle Cot Frame",
+          "sizeLabel": "Queen",
+          "sku": "TIF-MDU-MHG-QN",
+          "quantity": 1,
+          "unitPriceCents": 4850000
+        }
+      ]
+    }
+  ],
+  "movements": [
+    {
+      "id": "mov-001",
+      "variantId": "var-chettinad-queen",
+      "sku": "TIF-KRD-TEK-QN",
+      "productName": "Karaikudi Carved Teak Cot Frame",
+      "sizeLabel": "Queen",
+      "delta": -1,
+      "previousStock": 9,
+      "newStock": 8,
+      "reason": "Customer Order Sale",
+      "referenceId": "TIF-1041",
+      "createdAt": "2026-11-16T15:22:00.000Z"
+    },
+    {
+      "id": "mov-002",
+      "variantId": "var-madurai-queen",
+      "sku": "TIF-MDU-MHG-QN",
+      "productName": "Madurai Mahogany Spindle Cot Frame",
+      "sizeLabel": "Queen",
+      "delta": -1,
+      "previousStock": 9,
+      "newStock": 8,
+      "reason": "Customer Order Sale",
+      "referenceId": "TIF-1042",
+      "createdAt": "2026-11-18T11:05:00.000Z"
+    },
+    {
+      "id": "mov-003",
+      "variantId": "var-salem-mhg-qn",
+      "sku": "TIF-SLM-MHG-QN",
+      "productName": "Salem Royal Mahogany Platform Cot",
+      "sizeLabel": "Queen",
+      "delta": 4,
+      "previousStock": 5,
+      "newStock": 9,
+      "reason": "Pollachi Kiln Batch Restock",
+      "referenceId": "TN-MILL-44",
+      "createdAt": "2026-11-17T08:40:00.000Z"
+    }
+  ]
+}
