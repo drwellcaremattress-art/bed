@@ -1,4 +1,5 @@
 import { supabase } from './supabase.ts';
+import storeFallback from '../../data/store.json';
 import type {
   BedVariant,
   CreateBedPayload,
@@ -85,7 +86,11 @@ export const storeApi = {
       if (error) throw new Error(error.message);
       return (data || []).map((row) => mapSupabaseProduct(row as Record<string, unknown>));
     }
-    return apiJson<WoodBedProduct[]>('/api/products');
+    try {
+      return await apiJson<WoodBedProduct[]>('/api/products');
+    } catch {
+      return storeFallback.products as WoodBedProduct[];
+    }
   },
 
   async createProduct(payload: CreateBedPayload): Promise<WoodBedProduct> {
@@ -277,7 +282,16 @@ export const storeApi = {
       }));
     }
     const qs = orderNumber?.trim() ? `?orderNumber=${encodeURIComponent(orderNumber.trim())}` : '';
-    return apiJson<Order[]>(`/api/orders${qs}`);
+    try {
+      return await apiJson<Order[]>(`/api/orders${qs}`);
+    } catch {
+      const orders = storeFallback.orders as Order[];
+      if (orderNumber?.trim()) {
+        const needle = orderNumber.trim().toLowerCase();
+        return orders.filter((o) => o.orderNumber.toLowerCase() === needle);
+      }
+      return [];
+    }
   },
 
   async placeOrder(payload: PlaceOrderPayload): Promise<Order> {

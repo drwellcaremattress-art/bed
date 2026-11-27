@@ -4,7 +4,7 @@
  */
 
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { LogOut } from 'lucide-react';
+import { ChevronRight, Leaf, LogOut, MapPin, Phone, Trees } from 'lucide-react';
 import { Header, type ActivePage, type LowStockAlertItem } from './components/Header.tsx';
 import { HomePage } from './components/HomePage.tsx';
 import { ProductsPage } from './components/ProductsPage.tsx';
@@ -375,36 +375,122 @@ export default function App() {
       </main>
 
       {/* FOOTER */}
-      <footer className="border-t border-[#E6E4DE] bg-[#1F3A2E] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-14 grid sm:grid-cols-3 gap-10">
-          <div>
-            <p className="font-serif text-2xl font-semibold text-white">Teak-In-Furnitures</p>
-            <p className="text-xs text-white/50 mt-2 leading-relaxed">
-              Pollachi &amp; Karaikudi Timber Guild<br />
-              Solid wood cots only. Tamil Nadu since 1962.
+      <footer className="relative overflow-hidden bg-gradient-to-br from-[#0D261C] via-[#143728] to-[#0A1E15] text-white border-t border-[#D4A14A]/30">
+        {/* Subtle radial spotlight */}
+        <div
+          aria-hidden="true"
+          className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(212,161,74,0.12),transparent_60%)]"
+        />
+
+        {/* Subtle bottom-left solid wood cot watermark */}
+        <img
+          src="/src/assets/images/tn_mahogany_diwan_1795072558300.jpg"
+          alt=""
+          aria-hidden="true"
+          className="pointer-events-none hidden lg:block absolute -left-8 bottom-0 w-72 h-44 object-cover opacity-20 mix-blend-luminosity [mask-image:linear-gradient(to_right,black,transparent)]"
+        />
+
+        <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-14 pb-8">
+          <div className="grid grid-cols-1 md:grid-cols-12 gap-10 lg:gap-0 items-start">
+            {/* Left Column: Gold Tree Emblem & Brand */}
+            <div className="md:col-span-5 lg:pr-10">
+              <div className="inline-flex flex-col items-start">
+                <div className="flex items-center gap-2.5 text-[#D4A14A] mb-2">
+                  <Trees className="w-8 h-8" aria-hidden="true" />
+                </div>
+                <p className="font-serif text-3xl sm:text-4xl font-semibold text-white tracking-tight">
+                  Teak-In-Furnitures
+                </p>
+                <div className="w-28 h-px bg-gradient-to-r from-[#D4A14A] to-transparent my-3" aria-hidden="true" />
+                <p className="text-sm font-medium text-[#E5B869]">
+                  Pollachi &amp; Karaikudi Timber Guild
+                </p>
+                <p className="text-xs italic text-white/75 mt-1">
+                  Solid wood cots only. Tamil Nadu since 1962.
+                </p>
+              </div>
+            </div>
+
+            {/* Middle Column: Navigate */}
+            <div className="md:col-span-3 lg:border-l lg:border-white/12 lg:px-10">
+              <p className="text-xs font-serif tracking-[0.22em] text-[#E5B869] uppercase">
+                Navigate
+              </p>
+              <div className="w-8 h-px bg-[#D4A14A] mt-2 mb-5" aria-hidden="true" />
+              <div className="flex flex-col gap-2.5 text-sm text-white/80">
+                {([
+                  ['home', 'Home'],
+                  ['storefront', 'Collection'],
+                  ['about', 'About Us'],
+                  ['contact', 'Contact'],
+                  ['track', 'Track Order'],
+                  ['admin', 'Workshop Admin'],
+                ] as const).map(([page, label]) => (
+                  <button
+                    key={page}
+                    type="button"
+                    onClick={() => handleNavigate(page)}
+                    className="group inline-flex items-center gap-2 text-left hover:text-[#F5C56B] transition-colors cursor-pointer"
+                  >
+                    <ChevronRight
+                      className="w-3.5 h-3.5 text-[#D4A14A] group-hover:translate-x-0.5 transition-transform"
+                      aria-hidden="true"
+                    />
+                    <span>{label}</span>
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            {/* Right Column: Workshops */}
+            <div className="md:col-span-4 lg:border-l lg:border-white/12 lg:pl-10">
+              <p className="text-xs font-serif tracking-[0.22em] text-[#E5B869] uppercase">
+                Workshops
+              </p>
+              <div className="w-8 h-px bg-[#D4A14A] mt-2 mb-5" aria-hidden="true" />
+              <div className="space-y-3">
+                {[
+                  { city: 'Pollachi — 642 001, Tamil Nadu', phone: '+91 94430 00011', tel: '+919443000011' },
+                  { city: 'Karaikudi — 630 002, Tamil Nadu', phone: '+91 94430 00022', tel: '+919443000022' },
+                ].map((ws) => (
+                  <div
+                    key={ws.city}
+                    className="rounded-xl border border-[#D4A14A]/35 bg-white/5 backdrop-blur-xs px-4 py-3 flex items-start gap-3 hover:border-[#D4A14A]/65 transition-colors"
+                  >
+                    <MapPin className="w-4 h-4 text-[#D4A14A] shrink-0 mt-0.5" aria-hidden="true" />
+                    <div className="text-xs sm:text-sm space-y-1">
+                      <p className="font-medium text-white/95">{ws.city}</p>
+                      <a
+                        href={`tel:${ws.tel}`}
+                        className="inline-flex items-center gap-1.5 text-xs text-white/75 hover:text-[#F5C56B] transition-colors"
+                      >
+                        <Phone className="w-3 h-3 text-[#D4A14A]" aria-hidden="true" />
+                        <span>{ws.phone}</span>
+                      </a>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Ornamented Gold Divider */}
+          <div className="mt-10 mb-5 flex items-center gap-4">
+            <div className="h-px flex-1 bg-gradient-to-r from-transparent via-[#D4A14A]/60 to-[#D4A14A]/80" />
+            <div className="flex items-center gap-2 text-[#D4A14A]">
+              <span className="w-1 h-1 rounded-full bg-[#D4A14A]" />
+              <Leaf className="w-4 h-4" aria-hidden="true" />
+              <span className="w-1 h-1 rounded-full bg-[#D4A14A]" />
+            </div>
+            <div className="h-px flex-1 bg-gradient-to-l from-transparent via-[#D4A14A]/60 to-[#D4A14A]/80" />
+          </div>
+
+          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/60">
+            <p>© 2026 Teak-In-Furnitures. All rights reserved.</p>
+            <p className="italic text-white/65">
+              Handcrafted in Tamil Nadu — no veneers, no MDF, no shortcuts.
             </p>
           </div>
-          <div>
-            <p className="text-xs font-mono tracking-widest text-[#C9924A] uppercase mb-4">Navigate</p>
-            <div className="flex flex-col gap-2.5 text-sm text-white/70">
-              {([['home', 'Home'], ['storefront', 'Collection'], ['about', 'About Us'], ['contact', 'Contact'], ['track', 'Track Order'], ['admin', 'Workshop Admin']] as const).map(([page, label]) => (
-                <button key={page} type="button" onClick={() => handleNavigate(page)} className="text-left hover:text-white transition-colors cursor-pointer">
-                  {label}
-                </button>
-              ))}
-            </div>
-          </div>
-          <div>
-            <p className="text-xs font-mono tracking-widest text-[#C9924A] uppercase mb-4">Workshops</p>
-            <div className="text-sm text-white/70 space-y-3">
-              <p>Pollachi — 642 001, Tamil Nadu<br /><a href="tel:+919443000011" className="hover:text-white">+91 94430 00011</a></p>
-              <p>Karaikudi — 630 002, Tamil Nadu<br /><a href="tel:+919443000022" className="hover:text-white">+91 94430 00022</a></p>
-            </div>
-          </div>
-        </div>
-        <div className="border-t border-white/10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-white/40">
-          <p>© 2026 Teak-In-Furnitures. All rights reserved.</p>
-          <p>Handcrafted in Tamil Nadu — no veneers, no MDF, no shortcuts.</p>
         </div>
       </footer>
 
